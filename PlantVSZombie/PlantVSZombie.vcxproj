@@ -131,6 +131,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Behaviour.cpp" />
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="..\Enemy.CPP" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\Plant.cpp" />
+    <ClCompile Include="..\Playground.cpp" />
+    <ClCompile Include="..\Projectil.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="..\Transition.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +147,11 @@
     <ClInclude Include="..\Condition.hpp" />
     <ClInclude Include="..\Context.hpp" />
     <ClInclude Include="..\Plant.hpp" />
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="..\Playground.h" />
+    <ClInclude Include="..\Projectil.h" />
+>>>>>>> Stashed changes
     <ClInclude Include="..\Transition.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
